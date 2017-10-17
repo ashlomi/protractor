@@ -17,8 +17,8 @@ export let config: Config = {
   },
   specs: [ 'spec.js' ],
   suites: {
-      smoke: 'spec/smoketests/*.js',
-      full: 'spec/*.js'
+      smoke: 'spec.ts',
+      full: 'failed.ts'
    },
 
   seleniumAddress: 'http://localhost:4444/wd/hub',
