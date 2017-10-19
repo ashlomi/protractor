@@ -85,4 +85,3 @@ suites: {
   // collisions on the global namespace.
   noGlobals: true
 };
-© 2017 GitHub, Inc.
