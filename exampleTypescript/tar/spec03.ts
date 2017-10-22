@@ -1,7 +1,7 @@
 // Multiple spec files for CDD TAR wildcard import and execution
 import {browser, element, by, By, $, $$, ExpectedConditions} from 'protractor';
 
-describe('protractor with typescript typings', () => {
+describe('protractor with typescript typings 03', () => {
   beforeEach(() => {
     browser.get('http://www.angularjs.org');
   });
