@@ -9,9 +9,10 @@ export let config: Config = {
   
 // Suites taken from CDD protractor tests
 // not to be executed here
-suites: {		
-		    "00_specs0X": ['tar/spec0*.ts'],
-        "01_spec": 'tar/spec.ts'
+suites: {
+	"00_specs0X": 'tar/spec0*.ts'
+	// "00_specs0X": 'tar/spec0*.ts',
+	// "01_spec": 'tar/spec.ts'
 	},
 
   seleniumAddress: 'http://localhost:4444/wd/hub',
