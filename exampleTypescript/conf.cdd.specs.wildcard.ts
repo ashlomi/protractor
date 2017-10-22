@@ -11,8 +11,8 @@ export let config: Config = {
 // Specs taken from CDD protractor tests
 // not to be executed here
 specs: [
-        'spec.ts',
-        'spec0*.ts'
+        'tar/spec.ts',
+        'tar/spec0*.ts'
         ],
 
   seleniumAddress: 'http://localhost:4444/wd/hub',
