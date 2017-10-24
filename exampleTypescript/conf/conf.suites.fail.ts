@@ -10,10 +10,10 @@ export let config: Config = {
   },
   
 suites: {
-        "Fail01": '../tar/fail01.ts',
-	      "fail02": '../tar/fail02.ts',
-        "fail03": '../tar/fail03.ts',
-        "fail04": '../tar/fail04.ts'
+	"fail01": '../tar/fail01.ts',
+	"fail02": '../tar/fail02.ts',
+	"fail03": '../tar/fail03.ts',
+	"fail04": '../tar/fail04.ts'
 	},
 
   seleniumAddress: 'http://localhost:4444/wd/hub',
