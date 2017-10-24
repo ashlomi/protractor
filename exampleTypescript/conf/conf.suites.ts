@@ -9,8 +9,7 @@ export let config: Config = {
   },
   
 suites: {
-        "Suite00": '../tar/spec.ts',
-        "Suite01": '../tar/spec01.ts',
+        "Suite01": ['../tar/spec.ts','../tar/spec01.ts'],
         "Suite02": '../tar/spec02.ts',
         "Suite03": '../tar/spec03.ts',
         "Suite04": '../tar/spec04.ts'
