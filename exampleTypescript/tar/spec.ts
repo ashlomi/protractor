@@ -1,25 +1,18 @@
-
-// Because this file references protractor, you'll need to have it as a project
-// dependency to use 'protractor/globals'. Here is the full list of imports:
-//
-// import {browser, element, by, By, $, $$, ExpectedConditions}
-//   from 'protractor/globals';
-//
-// The jasmine typings are brought in via DefinitelyTyped ambient typings.
+// Multiple spec files for CDD TAR wildcard import and execution
 import {browser, element, by, By, $, $$, ExpectedConditions} from 'protractor';
 
-describe('protractor with typescript typings', () => {
+describe('protractor with typescript typings 00', () => {
   beforeEach(() => {
     browser.get('http://www.angularjs.org');
   });
 
-  it('should greet the named user', () => {
+  it('should greet the named user 00', () => {
     element(by.model('yourName')).sendKeys('Julie');
     let greeting = element(by.binding('yourName'));
     expect(greeting.getText()).toEqual('Hello Julie!');
   });
 
-  it('should list todos', function() {
+  it('should list todos 00', function() {
     let todoList = element.all(by.repeater('todo in todoList.todos'));
     expect(todoList.count()).toEqual(2);
     expect(todoList.get(1).getText()).toEqual('build an AngularJS app');
