@@ -8,8 +8,6 @@ export let config: Config = {
     browserName: 'chrome'
   },
   
-// Specs taken from CDD protractor tests
-// not to be executed here
 specs: [
         'tar/spec.ts',
         'tar/spec0*.ts'
