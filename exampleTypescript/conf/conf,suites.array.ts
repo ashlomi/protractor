@@ -9,8 +9,14 @@ export let config: Config = {
   },
   
 suites: {
-        "spec01_02": ['../tar/spec01.ts','../tar/spec02.ts'],
-        "spec03_04": ['../tar/spec03.ts','../tar/spec04.ts']
+        "spec01_02": [
+		'../tar/spec01.ts',
+		'../tar/spec02.ts'
+	],
+        "spec03_04": [
+		'../tar/spec03.ts',
+		'../tar/spec04.ts'
+	]
 	},
 
   seleniumAddress: 'http://localhost:4444/wd/hub',
