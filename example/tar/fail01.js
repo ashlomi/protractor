@@ -1,5 +1,5 @@
 // spec.js file for CDD TAR - fails on the first test
-describe('angularjs homepage', function() {
+describe('angularjs homepage 01', function() {
   it('should greet the named user 01', function() {
     browser.get('http://www.angularjs.org');
 
@@ -7,7 +7,7 @@ describe('angularjs homepage', function() {
 
     var greeting = element(by.binding('yourName'));
 
-    expect(greeting.getText()).toEqual('Fail!');
+    expect(greeting.getText()).toEqual('Fail01!');
   });
 
   describe('todo list 01', function() {
