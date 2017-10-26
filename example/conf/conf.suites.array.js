@@ -11,10 +11,10 @@ exports.config = {
   framework: 'jasmine',
   
 suites: {
-        "spec01_02": ['../tar/spec01.ts',
-                      '../tar/spec02.ts'],
-        "spec03_04": ['../tar/spec03.ts',
-                      '../tar/spec04.ts']
+        "example_spec01_02": ['../tar/example_spec01.js',
+                	      '../tar/example_spec02.js'],
+        "example_spec03_04": ['../tar/example_spec03.js',
+                	      '../tar/example_spec04.js']
 	},
   
   // Options to be passed to Jasmine.
