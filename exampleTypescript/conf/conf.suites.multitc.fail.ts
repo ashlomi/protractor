@@ -9,7 +9,8 @@ export let config: Config = {
   },
   
 suites: {
-        "spec01allFail.ts": '../tar/spec01allFail.ts'
+        "spec01allFail.ts": '../tar/spec01allFail.ts',
+	"spec02allFail.ts": '../tar/spec02allFail.ts'
 	},
 
   seleniumAddress: 'http://localhost:4444/wd/hub',
