@@ -12,7 +12,7 @@ suites: {
         "fail01.ts": '../tar/fail01.ts',
 	"fail02.ts": '../tar/fail02.ts',
         "spec.ts": '../tar/spec.ts',
-        "spec01.ts": '../tar/spec01.ts',
+        "spec01a.ts": '../tar/spec01.ts',
         "spec02.ts": '../tar/spec02.ts',
         "spec03.ts": '../tar/spec03.ts',
         "spec04a.ts": '../tar/spec04a.ts',
