@@ -19,6 +19,7 @@ suites: {
         "spec04a.ts": '../tar/spec04a.ts',
         "spec04.ts": '../tar/spec04.ts',
         "spec05.ts": '../tar/spec05.ts',
+	"spec05b.ts": '../tar/spec05.ts',
         "spec06.ts": '../tar/spec06.ts',
         "spec07.ts": '../tar/spec07.ts',
         "spec08.ts": '../tar/spec08.ts',
