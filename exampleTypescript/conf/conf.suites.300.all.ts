@@ -11,9 +11,7 @@ export let config: Config = {
 suites: {
         "fail01.ts": '../tar/fail01.ts',
 	"fail02.ts": '../tar/fail02.ts',
-	"yaelfail01.ts": '../tar/fail01.ts',
-	"yaelfail02.ts": '../tar/fail02.ts',
-        "spec.ts": '../tar/spec.ts',
+	"spec.ts": '../tar/spec.ts',
         "spec01a.ts": '../tar/spec01.ts',
 	"spec01b.ts": '../tar/spec01.ts',
         "spec02.ts": '../tar/spec02.ts',
