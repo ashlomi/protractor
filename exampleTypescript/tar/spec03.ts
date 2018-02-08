@@ -12,7 +12,7 @@ describe('protractor with typescript typings 03', () => {
     expect(greeting.getText()).toEqual('Hello Julie!');
   });
 
-  it('should list todos 04', function() {
+  it('should list todos 03', function() {
     let todoList = element.all(by.repeater('todo in todoList.todos'));
     expect(todoList.count()).toEqual(2);
     expect(todoList.get(1).getText()).toEqual('build an AngularJS app');
